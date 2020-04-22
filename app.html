@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="HomePage.css">
+	<title>HomePage</title>
+</head>
+<body>
+	
+	<img id="logo" src="New folder/sathyabam.jpg">
+	<div id="heading">
+	<h1> SATHYABAMA </h1>
+	<h5> INSTITUTE OF  SCIENCE AND TECHNOLOGY </h5>
+	<h3> (DEEMED TO BE UNIVERSITY) </h3>
+	<br>
+	</div>
+	<label id="RegId"> Register Number </label>
+	<input id="RegInputId" type="text" placeholder="Register Number">
+	<label id="dateId"> Date of Birth </label>
+	<input id="dateInputId" type="Date">
+	<label id='Department'> Department </label>
+	<div id="div">
+	<select id="block">
+			<option> Select </option>
+			<option> Electronicas and Communication</option>
+			<option> Computer Science</option>
+			<option> Instrumrntation </option>
+			<option> mechanical </option>
+	</select> 
+	<label id='Semester'> Semester </label>
+	<div id="div2">
+	<select id="Semesterblock">
+			<option> Select </option>
+			<option value="SEM1"> Semester 1</option>
+			<option value="SEM2"> Semester 2</option>
+			<option value="SEM3"> Semester 3</option>
+			<option value="SEM4"> Semester 4</option>
+			<option value="SEM5"> Semester 5</option>
+			<option value="SEM6"> Semester 6</option>
+			<option value="SEM7"> Semester 7</option>
+			<option value="SEM8"> Semester 8</option>
+	</select> 
+</div>
+<div id="submitdiv">
+	<input type="button" id="submit" value="submit" onclick="fun1()">
+</div>
+</body>
+
+<script type="text/javascript">
+	function fun1(){
+		console.log("success");
+	var sem = document.getElementById('Semesterblock');
+	if(sem.value == "SEM1"){
+		window.open("semester1.html");
+	}
+	else if(sem.value=="SEM2"){
+		window.open("Semester2.html");
+	}
+	else if(sem.value=="SEM3"){
+		window.open("Semester3.html");
+	}
+	else if(sem.value=="SEM4"){
+		window.open("Semester4.html");
+	}
+	else if(sem.value=="SEM5"){
+		window.open("Semester5.html");
+	}
+	else if(sem.value=="SEM6"){
+		window.open("Semester6.html");
+	}
+	else if(sem.value=="SEM7"){
+		window.open("Semester7.html");
+	}
+	else if(sem.value=="SEM8"){
+		window.open("Semester8.html");
+	}
+}
+</script>
+</html>

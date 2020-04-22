@@ -1,0 +1,64 @@
+	
+	
+	td,th,input,h1,h3{
+		text-align: center;
+		font-family: Times;
+	}
+	h1,h3{
+		color: rgb(43, 56, 68);
+		text-decoration: underline;
+		font-family: Times;
+	}
+	h3{
+		margin-top: -10px;
+	}
+	#submit{
+		background:rgb(43, 56, 68) ;
+		color : white;
+		border-style: 3px lightblue outset;
+		position: absolute;
+		display : block;
+		margin-top: 30px;
+		text-align: center;
+		width:150px;
+		height : 30px;
+		border-radius: 30px;
+		height: 40px;
+
+	}
+	#result{
+			color: white;
+			text-align: center;
+			margin-top: 10%;
+			font-family: Times;
+			font-size: 50px;
+		
+	}
+	#submitdiv{
+		margin-top: 20px;
+	display: block;
+	margin-left:45%;
+	margin-right :50%;	
+	}
+	#table{
+		width : 55%;
+		vertical-align: middle;
+		margin : auto;
+		margin-top:30px;
+		background: rgb(43, 56, 68);
+		border: 3px ridge white;
+		border-radius: 30px;
+		color : white;
+	}
+	#button{
+		font-size: 30px;
+	}
+	th,td{
+		border-right:  1px solid white;
+		border-top: 1px solid white;
+	}
+	body{
+		
+		background-color: rgb(92, 219, 148); 
+	}
+	
